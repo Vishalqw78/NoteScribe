@@ -9,4 +9,7 @@ router.get('/', mainController.home);
 
 router.get('/about', mainController.about);
 
+router.get('/features', mainController.features);
+
+
 module.exports = router;

@@ -17,3 +17,11 @@ exports.about = async(req,res)=>{
 
     res.render('about',locals);
 }
+exports.features = async(req,res)=>{
+    const locals = {
+        title: "Feautures : NoteScribe",
+        description : "NodeJS Notes APP",
+    };
+
+    res.render('features',locals);
+}

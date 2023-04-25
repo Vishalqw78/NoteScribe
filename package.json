@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build":"npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node start"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Vishal",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "connect-mongo": "^4.6.0",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
