@@ -50,6 +50,5 @@ app.use('*',(req,res)=>{
     res.status(404).render('error');
 });
 app.listen(port,()=>{
-    console.log(`at port ${port}`);
 });
 //<a href="https://iconscout.com/illustrations/curly" target="_blank">Curly hair man holding smartphone Illustration</a> by <a href="https://iconscout.com/contributors/humaaans">Pablo Stanley</a> on <a href="https://iconscout.com">IconScout</a>
